@@ -39,16 +39,16 @@ b:hover {
 
 .smiling {
   position: absolute;
-  height: 130px;
-  width: 120px;
-  top: 25px;
-  left: 110px;
+  left: 108px;
+  top: 22px;
+  height: 135px;
+  width: auto;
 }
 
 .sign {
   position: relative;
   height: 180px;
-  width: 420px;
+  width: auto;
   padding-left: 80px;
 }
 
@@ -77,6 +77,126 @@ b:hover {
   position: absolute;
   padding-left: 995px;
   padding-top: 69px;
+}
+
+@media only screen and (max-width: 320px) {
+  .topBox {
+    height: 200px;
+  }
+  .sign {
+    width: 100%;
+    height: auto;
+    padding-left: 0px;
+  }
+  .smiling {
+    left: 8%;
+    top: 3.5%;
+    height: auto;
+    width: 28%;
+  }
+  .topBoxLinks {
+    display: none;
+  }
+  .divider {
+    display: none;
+  }
+  .topBoxLinks2 {
+    padding-left: 10px;
+    padding-top: 145px;
+  }
+  a {
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 375px) and (min-width: 321px) {
+  .topBox {
+    height: 220px;
+  }
+  .sign {
+    width: 100%;
+    height: auto;
+    padding-left: 0px;
+  }
+  .smiling {
+    left: 8%;
+    top: 3.5%;
+    height: 17%;
+    width: auto;
+  }
+  .topBoxLinks {
+    display: none;
+  }
+  .divider {
+    display: none;
+  }
+  .topBoxLinks2 {
+    padding-left: 20px;
+    padding-top: 167px;
+  }
+  a {
+    padding: 2.5%;
+  }
+}
+
+@media only screen and (max-width: 414px) and (min-width: 376px) {
+  .topBox {
+    height: 240px;
+  }
+  .sign {
+    width: 100%;
+    height: auto;
+    padding-left: 0px;
+  }
+  .smiling {
+    left: 30px;
+    top: 25px;
+    height: auto;
+    width: 29%;
+  }
+  .topBoxLinks {
+    display: none;
+  }
+  .divider {
+    display: none;
+  }
+  .topBoxLinks2 {
+    padding-left: 6%;
+    padding-top: 185px;
+  }
+  a {
+    padding: 3%;
+  }
+}
+
+@media only screen and (max-width: 414px) and (min-width: 376px) {
+  .topBox {
+    height: 240px;
+  }
+  .sign {
+    width: 100%;
+    height: auto;
+    padding-left: 0px;
+  }
+  .smiling {
+    left: 30px;
+    top: 25px;
+    height: auto;
+    width: 29%;
+  }
+  .topBoxLinks {
+    display: none;
+  }
+  .divider {
+    display: none;
+  }
+  .topBoxLinks2 {
+    padding-left: 6%;
+    padding-top: 185px;
+  }
+  a {
+    padding: 3%;
+  }
 }
 
 
