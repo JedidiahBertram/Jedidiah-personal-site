@@ -1,206 +1,226 @@
-body {
-  width: 100%;
-  height: 100%;
-  padding: 0px;
-  margin: 0px;
-  background-color: #EDEBD7;
-}
+    body {
+      width: 100%;
+      height: 100%;
+      padding: 0px;
+      margin: 0px;
+      background-color: #EDEBD7;
+    }
 
-a {
-  color: #423E37;
-  font-family: "Brush Script MT", cursive;
-  font-size: 40px;
-  padding: 15px;
-  text-decoration: none;
-}
+    a {
+      color: #423E37;
+      font-family: "Brush Script MT", cursive;
+      font-size: 40px;
+      padding: 15px;
+      text-decoration: none;
+    }
 
-a:hover {
-  color: #6E675F;
-}
+    a:hover {
+      color: #6E675F;
+    }
 
-b {
-  padding: 7px;
-}
+    b {
+      padding: 7px;
+    }
 
-b:hover {
-  color: white;
-}
+    b:hover {
+      color: white;
+    }
 
-.topBox {
-  height: 175px;
-  background-color: #E3B23C;
-}
+    .topBox {
+      height: 175px;
+      background-color: #E3B23C;
+    }
 
-.topBoxLinks {
-  padding-left: 550px;
-  padding-top: 65px;
-  position: absolute;
-}
+    .topBoxLinks {
+      padding-left: 550px;
+      padding-top: 65px;
+      position: absolute;
+    }
 
-.smiling {
-  position: absolute;
-  left: 108px;
-  top: 22px;
-  height: 135px;
-  width: auto;
-}
+    .smiling {
+      position: absolute;
+      left: 108px;
+      top: 22px;
+      height: 135px;
+      width: auto;
+    }
 
-.sign {
-  position: relative;
-  height: 180px;
-  width: auto;
-  padding-left: 80px;
-}
+    .sign {
+      position: relative;
+      height: 180px;
+      width: auto;
+      padding-left: 80px;
+    }
 
-.change {
-  -ms-transform: rotate(1080deg);
-  -webkit-transform: rotate(1080deg);
-  transform: rotate(1080deg);
-  transition-duration: 7s;
-}
+    .change {
+      -ms-transform: rotate(1080deg);
+      -webkit-transform: rotate(1080deg);
+      transform: rotate(1080deg);
+      transition-duration: 7s;
+    }
 
-.divider {
-  color: #EDEBD7;
-  font-size: 120px;
-  position: absolute;
-  padding-left: 955px;
-  padding-top: 23px;
-}
+    .divider {
+      color: #EDEBD7;
+      font-size: 120px;
+      position: absolute;
+      padding-left: 955px;
+      padding-top: 23px;
+    }
 
-#logos {
-  width: 42px;
-  height: 42px;
-  padding: 0px;
-}
+    #logos {
+      width: 42px;
+      height: 42px;
+      padding: 0px;
+    }
 
-.topBoxLinks2 {
-  position: absolute;
-  padding-left: 995px;
-  padding-top: 69px;
-}
+    .topBoxLinks2 {
+      position: absolute;
+      padding-left: 995px;
+      padding-top: 69px;
+    }
 
-@media only screen and (max-width: 320px) {
-  .topBox {
-    height: 200px;
-  }
-  .sign {
-    width: 100%;
-    height: auto;
-    padding-left: 0px;
-  }
-  .smiling {
-    left: 8%;
-    top: 3.5%;
-    height: auto;
-    width: 28%;
-  }
-  .topBoxLinks {
-    display: none;
-  }
-  .divider {
-    display: none;
-  }
-  .topBoxLinks2 {
-    padding-left: 10px;
-    padding-top: 145px;
-  }
-  a {
-    padding: 5px;
-  }
-}
+    @media only screen and (max-width: 320px) {
+      .topBox {
+        height: 200px;
+      }
+      .sign {
+        width: 100%;
+        height: auto;
+        padding-left: 0px;
+      }
+      .smiling {
+        left: 8%;
+        top: 3.5%;
+        height: auto;
+        width: 28%;
+      }
+      .topBoxLinks {
+        display: none;
+      }
+      .divider {
+        display: none;
+      }
+      .topBoxLinks2 {
+        padding-left: 10px;
+        padding-top: 145px;
+      }
+      a {
+        padding: 5px;
+      }
+    }
 
-@media only screen and (max-width: 375px) and (min-width: 321px) {
-  .topBox {
-    height: 220px;
-  }
-  .sign {
-    width: 100%;
-    height: auto;
-    padding-left: 0px;
-  }
-  .smiling {
-    left: 8%;
-    top: 3.5%;
-    height: 17%;
-    width: auto;
-  }
-  .topBoxLinks {
-    display: none;
-  }
-  .divider {
-    display: none;
-  }
-  .topBoxLinks2 {
-    padding-left: 20px;
-    padding-top: 167px;
-  }
-  a {
-    padding: 2.5%;
-  }
-}
+    @media only screen and (max-width: 375px) and (min-width: 321px) {
+      .topBox {
+        height: 220px;
+      }
+      .sign {
+        width: 100%;
+        height: auto;
+        padding-left: 0px;
+      }
+      .smiling {
+        left: 8%;
+        top: 3.5%;
+        height: 17%;
+        width: auto;
+      }
+      .topBoxLinks {
+        display: none;
+      }
+      .divider {
+        display: none;
+      }
+      .topBoxLinks2 {
+        padding-left: 20px;
+        padding-top: 167px;
+      }
+      a {
+        padding: 2.5%;
+      }
+    }
 
-@media only screen and (max-width: 414px) and (min-width: 376px) {
-  .topBox {
-    height: 240px;
-  }
-  .sign {
-    width: 100%;
-    height: auto;
-    padding-left: 0px;
-  }
-  .smiling {
-    left: 30px;
-    top: 25px;
-    height: auto;
-    width: 29%;
-  }
-  .topBoxLinks {
-    display: none;
-  }
-  .divider {
-    display: none;
-  }
-  .topBoxLinks2 {
-    padding-left: 6%;
-    padding-top: 185px;
-  }
-  a {
-    padding: 3%;
-  }
-}
+    @media only screen and (max-width: 414px) and (min-width: 376px) {
+      .topBox {
+        height: 240px;
+      }
+      .sign {
+        width: 100%;
+        height: auto;
+        padding-left: 0px;
+      }
+      .smiling {
+        left: 30px;
+        top: 25px;
+        height: auto;
+        width: 29%;
+      }
+      .topBoxLinks {
+        display: none;
+      }
+      .divider {
+        display: none;
+      }
+      .topBoxLinks2 {
+        padding-left: 6%;
+        padding-top: 185px;
+      }
+      a {
+        padding: 3%;
+      }
+    }
 
-@media only screen and (max-width: 414px) and (min-width: 376px) {
-  .topBox {
-    height: 240px;
-  }
-  .sign {
-    width: 100%;
-    height: auto;
-    padding-left: 0px;
-  }
-  .smiling {
-    left: 30px;
-    top: 25px;
-    height: auto;
-    width: 29%;
-  }
-  .topBoxLinks {
-    display: none;
-  }
-  .divider {
-    display: none;
-  }
-  .topBoxLinks2 {
-    padding-left: 6%;
-    padding-top: 185px;
-  }
-  a {
-    padding: 3%;
-  }
-}
+    @media only screen and (max-width: 768px) and (min-width: 415px) {
+      .smiling {
+        position: absolute;
+        left: 48px;
+        top: 22px;
+        height: 135px;
+        width: auto;
+      }
+      .sign {
+        position: relative;
+        height: 180px;
+        width: auto;
+        padding-left: 20px;
+      }
+      .topBoxLinks {
+        padding-left: 58%;
+        padding-top: 50px;
+        position: absolute;
+      }
+      .divider {
+        display: none;
+      }
+      .topBoxLinks2 {
+        padding-left: 56.5%;
+        padding-top: 110px;
+      }
+      a {
+        padding: 8px;
+        font-size: 35px;
+      }
+      #logos {
+        width: 40px;
+        height: 40px;
+        padding: 0px;
+      }
+    }
 
-
-/* color codes for page:
+    @media only screen and (max-width: 1024px) and (min-width: 769px) {
+      .topBoxLinks {
+        padding-left: 55%;
+        padding-top: 50px;
+        position: absolute;
+      }
+      .divider {
+        display: none;
+      }
+      .topBoxLinks2 {
+        padding-left: 54%;
+        padding-top: 110px;
+      }
+    }
+    /* color codes for page:
 darker grey/brown: #423E37
 Goldish: #E3B23C
 Cream/White: #EDEBD7
