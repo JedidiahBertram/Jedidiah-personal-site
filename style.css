@@ -14,6 +14,28 @@
       text-decoration: none;
     }
 
+    .contentBox1 {
+      height: 630px;
+      background-color: none;
+      position: relative;
+      padding-top: 176px;
+      z-index: 0;
+    }
+
+    .contentBox2 {
+      height: 630px;
+      background-color: #6E675F;
+      position: relative;
+      z-index: 0;
+    }
+
+    .contentBox3 {
+      height: 630px;
+      background-color: none;
+      position: relative;
+      z-index: 0;
+    }
+
     a:hover {
       color: #6E675F;
     }
@@ -29,16 +51,21 @@
     .topBox {
       height: 175px;
       background-color: #E3B23C;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      z-index: 1;
     }
 
     .topBoxLinks {
       padding-left: 550px;
       padding-top: 65px;
-      position: absolute;
+      position: fixed;
     }
 
     .smiling {
-      position: absolute;
+      position: fixed;
       left: 108px;
       top: 22px;
       height: 135px;
@@ -46,7 +73,7 @@
     }
 
     .sign {
-      position: relative;
+      position: fixed;
       height: 180px;
       width: auto;
       padding-left: 80px;
@@ -62,7 +89,7 @@
     .divider {
       color: #EDEBD7;
       font-size: 120px;
-      position: absolute;
+      position: fixed;
       padding-left: 955px;
       padding-top: 23px;
     }
@@ -74,7 +101,7 @@
     }
 
     .topBoxLinks2 {
-      position: absolute;
+      position: fixed;
       padding-left: 995px;
       padding-top: 69px;
     }
@@ -230,6 +257,9 @@ Lighter grey: #6E675F
 F
 75F
 5F
+5F
+F
+F
 5F
 F
 F
