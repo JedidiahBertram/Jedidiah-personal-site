@@ -14,6 +14,35 @@
       text-decoration: none;
     }
 
+    #aboutMeTitle {
+      font-family: "Brush Script MT", cursive;
+      font-size: 80px;
+      padding-left: 785px;
+      padding-top: 50px;
+      width: 20%;
+      color: #423E37;
+    }
+
+    #aboutMeText {
+      font-family: "Courier New";
+      color: #6E675F;
+      font-size: 22px;
+      width: 37%;
+      padding-left: 750px;
+      text-align: center;
+    }
+
+    .headshot {
+      width: auto;
+      height: 50%;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      padding-top: 50px;
+      border border-color: #E3B23C;
+      position: absolute;
+    }
+
     .contentBox1 {
       height: 630px;
       background-color: none;
@@ -253,3 +282,6 @@ Goldish: #E3B23C
 Cream/White: #EDEBD7
 Light rosey grey: #A39594
 Lighter grey: #6E675F
+E675F
+
+E675F
