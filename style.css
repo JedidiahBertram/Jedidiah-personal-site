@@ -36,6 +36,7 @@ a {
 #headshot {
   background-image: url(assets/many_faces/IMG_6775.png);
   background-size: cover;
+  background-position: center;
   margin-top: 100px;
   margin-left: 10%;
   border: 5px solid #E3B23C;
