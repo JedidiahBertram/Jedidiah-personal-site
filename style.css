@@ -38,7 +38,7 @@ a {
   background-size: cover;
   background-position: center;
   margin-top: 100px;
-  margin-left: 10%;
+  margin-left: 12%;
   border: 5px solid #E3B23C;
   height: 400px;
   border-radius: 50%;
@@ -90,6 +90,7 @@ b:hover {
   left: 0px;
   right: 0px;
   z-index: 1;
+  border-bottom: 3px solid#423E37;
 }
 
 .topBoxLinks {
@@ -111,6 +112,7 @@ b:hover {
   height: 180px;
   width: auto;
   padding-left: 80px;
+  padding-top: 3px;
 }
 
 .change {
