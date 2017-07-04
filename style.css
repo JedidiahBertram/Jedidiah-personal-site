@@ -37,7 +37,7 @@ a {
   background-image: url(assets/many_faces/IMG_6775.png);
   background-size: cover;
   background-position: center;
-  margin-top: 100px;
+  margin-top: 110px;
   margin-left: 12%;
   border: 5px solid #E3B23C;
   height: 400px;
@@ -60,6 +60,8 @@ a {
   height: 630px;
   background-color: #6E675F;
   position: relative;
+  border-top: 3px solid #423E37;
+  border-bottom: 3px solid #423E37;
   z-index: 0;
 }
 
@@ -90,7 +92,7 @@ b:hover {
   left: 0px;
   right: 0px;
   z-index: 1;
-  border-bottom: 3px solid#423E37;
+  border-bottom: 3px solid #423E37;
 }
 
 .topBoxLinks {
@@ -108,7 +110,6 @@ b:hover {
 }
 
 .sign {
-  /*position: fixed;*/
   height: 180px;
   width: auto;
   padding-left: 80px;
