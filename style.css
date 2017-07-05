@@ -10,7 +10,6 @@ a {
   color: #423E37;
   font-family: "Brush Script MT";
   font-size: 40px;
-  padding: 15px;
   text-decoration: none;
 }
 
@@ -64,8 +63,109 @@ a {
   padding-top: 10px;
 }
 
-#movie {
-  background-image: url()
+#movieTrivia {
+  background-image: url(assets/project_images/makeitstop.png);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 350px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border: 3px solid #E3B23C;
+  margin-top: 30px;
+  margin-left: 65px;
+  position: absolute;
+}
+
+#movieTriviaTitle {
+  margin-top: 245px;
+  position: absolute;
+  margin-left: 100px;
+  font-family: "Brush Script MT";
+  font-size: 30px;
+  color: #EDEBD7;
+}
+
+#bwwmcTitle {
+  margin-top: 245px;
+  position: absolute;
+  margin-left: 570px;
+  font-family: "Brush Script MT";
+  font-size: 30px;
+  color: #EDEBD7;
+}
+
+#battleshipTitle {
+  margin-top: 245px;
+  position: absolute;
+  margin-left: 1080px;
+  font-family: "Brush Script MT";
+  font-size: 30px;
+  color: #EDEBD7;
+}
+
+#movieTriviaDesc {
+  margin-top: 270px;
+  position: absolute;
+  margin-left: 65px;
+  width: 350px;
+  font-family: "Courier New";
+  font-size: 20px;
+  text-align: center;
+  color: #E3B23C;
+}
+
+#bwwmcDesc {
+  margin-top: 270px;
+  position: absolute;
+  margin-left: 540px;
+  width: 350px;
+  font-family: "Courier New";
+  font-size: 20px;
+  text-align: center;
+  color: #E3B23C;
+}
+
+#battleshipDesc {
+  margin-top: 270px;
+  position: absolute;
+  margin-left: 1015px;
+  width: 350px;
+  font-family: "Courier New";
+  font-size: 20px;
+  text-align: center;
+  color: #E3B23C;
+}
+
+#bwwmc {
+  background-image: url(assets/project_images/BWWMC.png);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 350px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border: 3px solid #E3B23C;
+  margin-top: 30px;
+  margin-left: 540px;
+  position: absolute;
+}
+
+#battleship {
+  background-image: url(assets/project_images/battleship.png);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 350px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border: 3px solid #E3B23C;
+  margin-top: 30px;
+  margin-left: 1015px;
+  position: absolute;
 }
 
 .contentBox2 {
@@ -86,14 +186,6 @@ a {
 
 a:hover {
   color: #6E675F;
-}
-
-b {
-  padding: 7px;
-}
-
-b:hover {
-  color: white;
 }
 
 .topBox {
@@ -146,13 +238,17 @@ b:hover {
 #logos {
   width: 42px;
   height: 42px;
-  padding: 0px;
+  padding: 10px;
+}
+
+#links {
+  padding: 10px;
 }
 
 .topBoxLinks2 {
   position: fixed;
-  padding-left: 960px;
-  padding-top: 69px;
+  padding-left: 985px;
+  padding-top: 60px;
 }
 
 @media only screen and (max-width: 320px) {
