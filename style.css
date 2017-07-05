@@ -8,14 +8,14 @@ body {
 
 a {
   color: #423E37;
-  font-family: "Brush Script MT", cursive;
+  font-family: "Brush Script MT";
   font-size: 40px;
   padding: 15px;
   text-decoration: none;
 }
 
 #aboutMeTitle {
-  font-family: "Brush Script MT", cursive;
+  font-family: "Brush Script MT";
   font-size: 80px;
   padding-left: 62%;
   padding-top: 40px;
@@ -54,6 +54,18 @@ a {
   position: relative;
   padding-top: 176px;
   z-index: 0;
+}
+
+.portfolioTitle {
+  font-family: "Brush Script MT";
+  color: #EDEBD7;
+  font-size: 100px;
+  padding-left: 40%;
+  padding-top: 10px;
+}
+
+#movie {
+  background-image: url()
 }
 
 .contentBox2 {
