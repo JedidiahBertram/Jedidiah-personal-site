@@ -13,10 +13,15 @@ a {
   text-decoration: none;
 }
 
+.emailForm {
+  padding-left: 38%;
+  padding-top: 20px;
+}
+
 #aboutMeTitle {
   font-family: "Brush Script MT";
   font-size: 80px;
-  padding-left: 40 %;
+  padding-left: 40%;
   padding-top: 10px;
   width: 20%;
   color: #423E37;
