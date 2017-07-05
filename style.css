@@ -16,6 +16,7 @@ a {
 .emailForm {
   padding-left: 38%;
   padding-top: 20px;
+  position: absolute;
 }
 
 #aboutMeTitle {
@@ -51,7 +52,7 @@ a {
   background-image: url(assets/many_faces/IMG_6775.png);
   background-size: cover;
   background-position: center;
-  margin-top: 110px;
+  margin-top: 130px;
   margin-left: 12%;
   border: 5px solid #E3B23C;
   height: 400px;
@@ -225,6 +226,19 @@ a:hover {
   left: 108px;
   top: 25px;
   height: 135px;
+  width: auto;
+}
+
+.focusedFace {
+  height: 200px;
+  width: auto;
+  overflow: inherit;
+  padding-left: 85%;
+  padding-top: 300px;
+}
+
+#focused {
+  height: 200px;
   width: auto;
 }
 

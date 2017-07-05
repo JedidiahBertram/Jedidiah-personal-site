@@ -5,6 +5,13 @@ $(document).ready(function() {
       $(this).removeClass("change").dequeue();
     });
   });
+
+  $("#focused").mouseenter(function() {
+    $(this).addClass("change").delay(7000).queue(function() {
+      $(this).removeClass("change").dequeue();
+    });
+  });
+
   var position = 0;
   $(".scroll0").click(function(event) {
     console.log(position);
