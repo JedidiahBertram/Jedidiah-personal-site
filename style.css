@@ -16,9 +16,19 @@ a {
 #aboutMeTitle {
   font-family: "Brush Script MT";
   font-size: 80px;
-  padding-left: 62%;
-  padding-top: 40px;
+  padding-left: 40 %;
+  padding-top: 10px;
   width: 20%;
+  color: #423E37;
+  text-align: center;
+}
+
+#contactTitle {
+  font-family: "Brush Script MT";
+  font-size: 80px;
+  padding-left: 35%;
+  padding-top: 10px;
+  width: 30%;
   color: #423E37;
   text-align: center;
 }
@@ -247,7 +257,7 @@ a:hover {
 
 .topBoxLinks2 {
   position: fixed;
-  padding-left: 985px;
+  padding-left: 995px;
   padding-top: 60px;
 }
 
