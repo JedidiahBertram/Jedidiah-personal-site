@@ -116,7 +116,6 @@ h1 {
   font-size: 100px;
   width: 100%;
   text-align: center;
-  padding-top: 10px;
 }
 
 .portItems {
@@ -215,7 +214,7 @@ h1 {
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1100px) {
   .headerLinks {
     padding-top: 61px;
   }
@@ -253,7 +252,6 @@ h1 {
 #aboutMeTitle {
   font-family: "brush_script_mtitalic";
   font-size: 80px;
-  padding-top: 10px;
   width: 100%;
   color: #423E37;
   text-align: center;
@@ -302,7 +300,6 @@ h1 {
 #contactTitle {
   font-family: "brush_script_mtitalic";
   font-size: 80px;
-  padding-top: 10px;
   color: #423E37;
   text-align: center;
 }
@@ -389,59 +386,6 @@ h1 {
   width: 100%;
   text-align: center;
   margin-top: 10px;
-}
-
-@media only screen and (max-width: 320px) {
-  .topBoxLinks2 {
-    padding-left: 10px;
-    padding-top: 145px;
-  }
-  a {
-    padding: 5px;
-  }
-}
-
-@media only screen and (max-width: 375px) and (min-width: 321px) {
-  .topBoxLinks2 {
-    padding-left: 20px;
-    padding-top: 167px;
-  }
-  a {
-    padding: 2.5%;
-  }
-}
-
-@media only screen and (max-width: 414px) and (min-width: 376px) {
-  .topBoxLinks2 {
-    padding-left: 6%;
-    padding-top: 185px;
-  }
-  a {
-    padding: 3%;
-  }
-}
-
-@media only screen and (max-width: 768px) and (min-width: 415px) {
-  .topBoxLinks2 {
-    padding-left: 56.5%;
-    padding-top: 110px;
-  }
-  a {
-    padding: 8px;
-    font-size: 35px;
-  }
-  #logos {
-    width: 40px;
-    height: 40px;
-    padding: 0px;
-  }
-}
-
-@media only screen and (max-width: 1024px) and (min-width: 769px) {
-  .topBoxLinks2 {
-    padding-left: 54%;
-    padding-top: 110px;
-  }
 }
 
 
