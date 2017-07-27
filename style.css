@@ -1,6 +1,13 @@
+@font-face {
+  font-family: 'brush_script_mtitalic';
+  src: url('brushsci-webfont.woff2') format('woff2'), url('brushsci-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 a {
   color: #423E37;
-  font-family: "Brush Script MT";
+  font-family: "brush_script_mtitalic";
   font-size: 40px;
   text-decoration: none;
 }
@@ -15,6 +22,11 @@ body {
   padding: 0px;
   margin: 0px;
   background-color: #EDEBD7;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-weight: 400;
 }
 
 .change {
@@ -25,27 +37,43 @@ body {
 }
 
 .contentBox1 {
-  height: 630px;
   background-color: none;
   position: relative;
-  padding-top: 176px;
+  padding: 176px 0 100px 0;
+  width: 100%;
   z-index: 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .contentBox2 {
-  height: 630px;
   background-color: #6E675F;
   position: relative;
   border-top: 3px solid #423E37;
   border-bottom: 3px solid #423E37;
+  width: 100%;
   z-index: 0;
+  /*max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;*/
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .contentBox3 {
-  height: 630px;
   background-color: none;
   position: relative;
   z-index: 0;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .divider {
@@ -57,44 +85,57 @@ body {
 }
 
 .emailForm {
-  padding-left: 38%;
-  padding-top: 20px;
-  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.emailForm iframe {
+  width: 100%;
 }
 
 .focusedFace {
-  height: 200px;
-  width: auto;
-  overflow: inherit;
-  padding-left: 85%;
-  padding-top: 300px;
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .focusedFace {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .emailForm {
+    width: 375px;
+  }
 }
 
 .portfolioTitle {
-  font-family: "Brush Script MT";
+  font-family: "brush_script_mtitalic";
   color: #EDEBD7;
   font-size: 100px;
-  padding-left: 40%;
+  width: 100%;
+  text-align: center;
   padding-top: 10px;
 }
 
-.smiling {
-  position: fixed;
-  left: 108px;
-  top: 25px;
-  height: 135px;
-  width: auto;
+.portItems {
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
+  min-height: 500px;
 }
 
-.sign {
-  height: 180px;
-  width: auto;
-  padding-left: 80px;
-  padding-top: 3px;
+@media only screen and (min-width: 768px) {
+  .portItems {
+    width: 50%;
+    padding: 0 50px;
+  }
 }
 
 .topBox {
-  height: 175px;
+  height: auto;
   background-color: #E3B23C;
   position: fixed;
   top: 0px;
@@ -104,10 +145,84 @@ body {
   border-bottom: 3px solid #423E37;
 }
 
+.headerContainer {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 2px auto -11px auto;
+}
+
+.signContainer {
+  position: relative;
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 415px;
+  float: left;
+}
+
+.sign {
+  height: auto;
+  width: 100%;
+  max-width: 415px;
+  box-sizing: border-box;
+}
+
+.smiling {
+  position: absolute;
+  bottom: 16%;
+  left: 7%;
+  width: 29%;
+  height: auto;
+}
+
 .topBoxLinks {
-  padding-left: 515px;
-  padding-top: 65px;
-  position: fixed;
+  display: none;
+  width: 100%;
+}
+
+.headerLinks {
+  display: none;
+}
+
+
+/* Tablet And Up*/
+
+@media only screen and (min-width: 768px) {
+  .headerContainer {
+    padding: 0 80px;
+  }
+  .signContainer {
+    width: 415px;
+  }
+  .headerLinks {
+    display: inline;
+    width: calc(100% - 415px);
+    height: 100%;
+    float: left;
+    padding-left: 28px;
+    box-sizing: border-box;
+    padding-top: 12px;
+    text-align: center;
+  }
+  #links {
+    box-sizing: border-box;
+    display: block;
+    padding: 0 10px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .headerLinks {
+    padding-top: 61px;
+  }
+  #links {
+    box-sizing: border-box;
+    display: inline;
+  }
 }
 
 .topBoxLinks2 {
@@ -120,34 +235,28 @@ body {
   font-family: "Courier New";
   color: #6E675F;
   font-size: 22px;
-  width: 37%;
-  padding-left: 53%;
+  width: 100%;
+  padding: 0 15px;
   text-align: center;
+  box-sizing: border-box;
+  float: left;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 768px) {
+  #aboutMeText {
+    width: 50%;
+    padding: 0 80px;
+  }
 }
 
 #aboutMeTitle {
-  font-family: "Brush Script MT";
+  font-family: "brush_script_mtitalic";
   font-size: 80px;
-  padding-left: 40%;
   padding-top: 10px;
-  width: 20%;
+  width: 100%;
   color: #423E37;
   text-align: center;
-}
-
-#battleship {
-  background-image: url(assets/project_images/battleship.png);
-  background-size: cover;
-  background-position: center;
-  height: 200px;
-  width: 350px;
-  border-radius: 10px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border: 3px solid #E3B23C;
-  margin-top: 30px;
-  margin-left: 1015px;
-  position: absolute;
 }
 
 #battleshipDesc {
@@ -165,24 +274,9 @@ body {
   margin-top: 245px;
   position: absolute;
   margin-left: 1080px;
-  font-family: "Brush Script MT";
+  font-family: "brush_script_mtitalic";
   font-size: 30px;
   color: #EDEBD7;
-}
-
-#bwwmc {
-  background-image: url(assets/project_images/BWWMC.png);
-  background-size: cover;
-  background-position: center;
-  height: 200px;
-  width: 350px;
-  border-radius: 10px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border: 3px solid #E3B23C;
-  margin-top: 30px;
-  margin-left: 540px;
-  position: absolute;
 }
 
 #bwwmcDesc {
@@ -200,17 +294,15 @@ body {
   margin-top: 245px;
   position: absolute;
   margin-left: 570px;
-  font-family: "Brush Script MT";
+  font-family: "brush_script_mtitalic";
   font-size: 30px;
   color: #EDEBD7;
 }
 
 #contactTitle {
-  font-family: "Brush Script MT";
+  font-family: "brush_script_mtitalic";
   font-size: 80px;
-  padding-left: 35%;
   padding-top: 10px;
-  width: 30%;
   color: #423E37;
   text-align: center;
 }
@@ -220,23 +312,43 @@ body {
   width: auto;
 }
 
+.headshotContainer {
+  float: left;
+  width: 100%;
+  padding: 0 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
 #headshot {
   background-image: url(assets/many_faces/IMG_6775.png);
   background-size: cover;
   background-position: center;
-  margin-top: 130px;
-  margin-left: 12%;
   border: 5px solid #E3B23C;
-  height: 400px;
+  height: 80vw;
+  width: 80vw;
   border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
-  width: 400px;
-  position: absolute;
+  margin: 0 auto;
 }
 
-#links {
-  padding: 10px;
+@media only screen and (min-width: 768px) {
+  .headshotContainer {
+    width: 50%;
+    padding: 0 80px;
+  }
+  #headshot {
+    height: 35vw;
+    width: 35vw;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #headshot {
+    height: 400px;
+    width: 400px;
+  }
 }
 
 #logos {
@@ -245,62 +357,41 @@ body {
   padding: 10px;
 }
 
-#movieTrivia {
-  background-image: url(assets/project_images/makeitstop.png);
+.portImage {
   background-size: cover;
   background-position: center;
-  height: 200px;
-  width: 350px;
-  border-radius: 10px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border: 3px solid #E3B23C;
-  margin-top: 30px;
-  margin-left: 65px;
-  position: absolute;
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
 }
 
-#movieTriviaDesc {
-  margin-top: 270px;
-  position: absolute;
-  margin-left: 65px;
-  width: 350px;
+.portImage img {
+  width: 100%;
+  height: auto;
+  border: 3px solid #E3B23C;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+#portDesc {
   font-family: "Courier New";
   font-size: 20px;
-  text-align: center;
   color: #E3B23C;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
 }
 
-#movieTriviaTitle {
-  margin-top: 245px;
-  position: absolute;
-  margin-left: 100px;
-  font-family: "Brush Script MT";
+#portTitle {
+  font-family: "brush_script_mtitalic";
   font-size: 30px;
   color: #EDEBD7;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
 }
 
 @media only screen and (max-width: 320px) {
-  .topBox {
-    height: 200px;
-  }
-  .sign {
-    width: 100%;
-    height: auto;
-    padding-left: 0px;
-  }
-  .smiling {
-    left: 8%;
-    top: 3.5%;
-    height: auto;
-    width: 28%;
-  }
-  .topBoxLinks {
-    display: none;
-  }
-  .divider {
-    display: none;
-  }
   .topBoxLinks2 {
     padding-left: 10px;
     padding-top: 145px;
@@ -311,26 +402,6 @@ body {
 }
 
 @media only screen and (max-width: 375px) and (min-width: 321px) {
-  .topBox {
-    height: 220px;
-  }
-  .sign {
-    width: 100%;
-    height: auto;
-    padding-left: 0px;
-  }
-  .smiling {
-    left: 8%;
-    top: 3.5%;
-    height: 17%;
-    width: auto;
-  }
-  .topBoxLinks {
-    display: none;
-  }
-  .divider {
-    display: none;
-  }
   .topBoxLinks2 {
     padding-left: 20px;
     padding-top: 167px;
@@ -341,26 +412,6 @@ body {
 }
 
 @media only screen and (max-width: 414px) and (min-width: 376px) {
-  .topBox {
-    height: 240px;
-  }
-  .sign {
-    width: 100%;
-    height: auto;
-    padding-left: 0px;
-  }
-  .smiling {
-    left: 30px;
-    top: 25px;
-    height: auto;
-    width: 29%;
-  }
-  .topBoxLinks {
-    display: none;
-  }
-  .divider {
-    display: none;
-  }
   .topBoxLinks2 {
     padding-left: 6%;
     padding-top: 185px;
@@ -371,27 +422,6 @@ body {
 }
 
 @media only screen and (max-width: 768px) and (min-width: 415px) {
-  .smiling {
-    position: absolute;
-    left: 48px;
-    top: 22px;
-    height: 135px;
-    width: auto;
-  }
-  .sign {
-    position: relative;
-    height: 180px;
-    width: auto;
-    padding-left: 20px;
-  }
-  .topBoxLinks {
-    padding-left: 58%;
-    padding-top: 50px;
-    position: absolute;
-  }
-  .divider {
-    display: none;
-  }
   .topBoxLinks2 {
     padding-left: 56.5%;
     padding-top: 110px;
@@ -408,14 +438,6 @@ body {
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
-  .topBoxLinks {
-    padding-left: 55%;
-    padding-top: 50px;
-    position: absolute;
-  }
-  .divider {
-    display: none;
-  }
   .topBoxLinks2 {
     padding-left: 54%;
     padding-top: 110px;

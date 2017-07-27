@@ -3,7 +3,8 @@
 
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
@@ -13,61 +14,80 @@
     <link rel="shortcut icon" href="assets/favicon/favPNG.ico" type="image/x-icon">
   </head>
   <div class='topBox'>
-    <span class='divider'>|</span>
+    <div class="headerContainer">
+      <div class="signContainer">
+        <img src="assets/graphics/signfinal.png" class='sign'>
+        <img src="assets/many_faces/smile_right.png" class='smiling'>
+      </div>
+      <div class="headerLinks">
+        <a href="#about" class='scroll0' id='links'>About</a>
+        <a href="#portfolio" class='scroll1' id='links'>Portfolio</a>
+        <a href="#contact" class='scroll2' id='links'>Contact</a>
+      </div>
+    </div>
+    <!-- <span class='divider'>|</span>
     <span class='topBoxLinks2'>
       <a href="https://www.linkedin.com/in/jedidiah-bertram/" target="_blank"> <img src='assets/socialmedialogos/linkedin.png' id=logos> </a>
       <a href="https://github.com/JedidiahBertram" target="_blank"> <img src='assets/socialmedialogos/GitHub.png' id=logos> </a>
       <a href="https://medium.com/@jedidiahbertram" target="_blank"> <img src='assets/socialmedialogos/medium.png' id=logos> </a>
       <a href="https://www.youtube.com/user/JedidiahBertram" target="_blank"> <img src='assets/socialmedialogos/youtube2.png' id=logos> </a>
       <a href="https://www.instagram.com/jedidiah_bee/" target="_blank"> <img src='assets/socialmedialogos/instagram.png' id=logos> </a>
-    </span>
-    <span class='topBoxLinks'>
-      <a href="#about" class='scroll0' id='links'>About</a>
-      <a href="#portfolio" class='scroll1' id='links'>Portfolio</a>
-      <a href="#contact" class='scroll2' id='links'>Contact</a>
-    </span>
-    <img src="assets/graphics/signfinal.png" class='sign'>
-    <img src="assets/many_faces/smile_right.png" class='smiling'>
+    </span> -->
   </div>
 
   <div class='contentBox1' id='about'>
-    <div id='headshot'>
+    <h1 id='aboutMeTitle'>About Me</h1>
+    <div class="headshotContainer">
+      <div id='headshot'></div>
     </div>
-    <div id='aboutMeTitle'>About Me</div>
     <div id='aboutMeText'>
       <p>This is place holder text for the about me section. KJnsj js owoije jfdssdo knd kfnfddfm jkk skd kdnkf dsk jkndc. jkdsnds jfnsjk skjnjknrjr fjkfn fj fjnfa jsd jnfjnff jdkda dkj nsdoiriont gdam fnvrj jdj fjnf jnsa sdjnfs jnfnfn jf kasmd a sknoi ldeomf
         jaeoenf kljnsd giqppd jdorjfkdflgp ejkj dak djdloepamndm jds jsdjdmkfd ksajhew <br> <br> jhbukdso Jndd more plave holder text whateevr I don't even care anymore honestly this is crazy and taking ewayyyyyy too much of my time. I need to ficus on
-        capstone.</p>
+        capstone.
+      </p>
     </div>
   </div>
 
   <div class='contentBox2' id='portfolio'>
-    <div class='portfolioTitle'>Portfolio</div>
-
-    <a href="https://github.com/JedidiahBertram/Make-It-Stop-Movie-Trivia" target="_blank">
-      <div id='movieTrivia'></div>
-    </a>
-    <a href="https://github.com/JedidiahBertram/bwwmc" target="_blank">
-      <div id='bwwmc'></div>
-    </a>
-    <a href="https://github.com/JedidiahBertram/two-player-battleship" target="_blank">
-      <div id='battleship'></div>
-    </a>
-    <div id='movieTriviaTitle'>Make It Stop Movie Trivia</div>
-    <div id='bwwmcTitle'>Bow Wow Where's My Chow?</div>
-    <div id='battleshipTitle'>Two Player Battleship</div>
-    <div id='movieTriviaDesc'>
-      <p>Place holder text for movie triva madness project. KJdjkdnd sakjdn dskds.</p>
-    </div>
-    <div id='bwwmcDesc'>
-      <p>Place holder text for BWWMC project sdajj djnd kk jsj aL dafkj dj cjna jdckm.</p>
-    </div>
-    <div id='battleshipDesc'>
-      <p>Place holder text for two player battleship project sink them ships!</p>
+    <div class="container">
+      <h1 class='portfolioTitle'>Portfolio</h1>
+      <div class="portItems">
+        <a href="https://github.com/JedidiahBertram/Make-It-Stop-Movie-Trivia" target="_blank">
+          <div id='movieTrivia' class="portImage">
+            <img src="assets/project_images/makeitstop.png" />
+          </div>
+        </a>
+        <div id='portTitle'>Make It Stop Movie Trivia</div>
+        <div id='portDesc'>
+          <p>Place holder text for movie triva madness project. KJdjkdnd sakjdn dskds.</p>
+        </div>
+      </div>
+      <div class="portItems">
+        <a href="https://github.com/JedidiahBertram/bwwmc" target="_blank">
+          <div id='bwwmc' class="portImage">
+            <img src="assets/project_images/BWWMC.png" />
+          </div>
+        </a>
+        <div id='portTitle'>Bow Wow Where's My Chow?</div>
+        <div id='portDesc'>
+          <p>Place holder text for BWWMC project sdajj djnd kk jsj aL dafkj dj cjna jdckm.</p>
+        </div>
+      </div>
+      <div class="portItems">
+        <a href="https://github.com/JedidiahBertram/two-player-battleship" target="_blank">
+          <div id='battleship' class="portImage">
+            <img src="assets/project_images/battleship.png" />
+          </div>
+        </a>
+        <div id='portTitle'>Two Player Battleship</div>
+        <div id='portDesc'>
+          <p>Place holder text for two player battleship project sink them ships!</p>
+        </div>
+      </div>
     </div>
   </div>
   <div class='contentBox3' id='contact'>
-    <div id='contactTitle'>Get In Touch</div>
+    <h1 id='contactTitle'>Get In Touch</h1>
     <div class='emailForm'>
       <a id="foxyform_embed_link_882836" href="http://www.foxyform.com/"></a>
       <script type="text/javascript">
