@@ -54,9 +54,6 @@ h1 {
   border-bottom: 3px solid #423E37;
   width: 100%;
   z-index: 0;
-  /*max-width: 1200px;
-  margin: 0 auto;
-  overflow: hidden;*/
 }
 
 .container {
@@ -87,6 +84,7 @@ h1 {
 .emailForm {
   width: 100%;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .emailForm iframe {
@@ -99,7 +97,7 @@ h1 {
   margin: 0 auto;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 900px) {
   .focusedFace {
     position: absolute;
     right: 0;
@@ -126,7 +124,7 @@ h1 {
   min-height: 500px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 900px) {
   .portItems {
     width: 50%;
     padding: 0 50px;
@@ -190,7 +188,7 @@ h1 {
 
 /* Tablet And Up*/
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 900px) {
   .headerContainer {
     padding: 0 80px;
   }
@@ -236,13 +234,14 @@ h1 {
   font-size: 22px;
   width: 100%;
   padding: 0 15px;
+  margin-top: 5%;
   text-align: center;
   box-sizing: border-box;
   float: left;
   overflow: hidden;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 900px) {
   #aboutMeText {
     width: 50%;
     padding: 0 80px;
@@ -313,6 +312,7 @@ h1 {
   float: left;
   width: 100%;
   padding: 0 15px;
+  margin-top: 7%;
   box-sizing: border-box;
   overflow: hidden;
 }
@@ -321,7 +321,7 @@ h1 {
   background-image: url(assets/many_faces/IMG_6775.png);
   background-size: cover;
   background-position: center;
-  border: 5px solid #E3B23C;
+  border: 5px solid #423E37;
   height: 80vw;
   width: 80vw;
   border-radius: 50%;
@@ -330,10 +330,10 @@ h1 {
   margin: 0 auto;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 900px) {
   .headshotContainer {
     width: 50%;
-    padding: 0 80px;
+    padding: 3%;
   }
   #headshot {
     height: 35vw;

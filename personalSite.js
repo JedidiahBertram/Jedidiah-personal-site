@@ -17,11 +17,11 @@ $(document).ready(function() {
     console.log(position);
     if (position === 1) {
       $('html, body').animate({
-        scrollTop: '-=632px'
+        scrollTop: '-=800px'
       }, 500);
     } else if (position > 1) {
       $('html, body').animate({
-        scrollTop: '-=1300px'
+        scrollTop: '-=2800px'
       }, 500);
       position = 0;
     }
@@ -31,11 +31,11 @@ $(document).ready(function() {
     console.log(position);
     if (position === 1) {
       $('html, body').animate({
-        scrollTop: '+=632px'
+        scrollTop: '+=800px'
       }, 500);
     } else if (position > 1) {
       $('html, body').animate({
-        scrollTop: '-=631px'
+        scrollTop: '-=1280px'
       }, 500);
     }
   });
@@ -43,7 +43,7 @@ $(document).ready(function() {
     position += 2;
     console.log(position);
     $('html, body').animate({
-      scrollTop: '+=1300px'
+      scrollTop: '+=2500px'
     }, 500);
   });
 });;
