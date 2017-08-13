@@ -142,6 +142,15 @@ h1 {
   border-bottom: 3px solid #423E37;
 }
 
+.footerBox {}
+
+.footerContainer {
+  height: 75px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
 .headerContainer {
   width: 100%;
   max-width: 1200px;
@@ -174,6 +183,10 @@ h1 {
   left: 7%;
   width: 29%;
   height: auto;
+}
+
+.footerLinks {
+  margin-left: 40% auto;
 }
 
 .topBoxLinks {
