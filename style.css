@@ -47,6 +47,13 @@ h1 {
   overflow: hidden;
 }
 
+.footerContainer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
 .contentBox2 {
   background-color: #6E675F;
   position: relative;
@@ -73,14 +80,6 @@ h1 {
   overflow: hidden;
 }
 
-.divider {
-  color: #EDEBD7;
-  font-size: 120px;
-  position: fixed;
-  padding-left: 920px;
-  padding-top: 23px;
-}
-
 .emailForm {
   width: 100%;
   margin: 0 auto;
@@ -97,11 +96,29 @@ h1 {
   margin: 0 auto;
 }
 
+.footerLinks {
+  height: 50px;
+  margin: 0 auto;
+  margin-left: 4%;
+  margin-right: 4%
+}
+
+.smLinks {
+  height: 50px;
+  width: 50px;
+}
+
 @media only screen and (min-width: 900px) {
   .focusedFace {
     position: absolute;
     right: 0;
     bottom: 0;
+  }
+  .footerLinks {
+    height: 50px;
+    margin: 0 auto;
+    margin-left: 37%;
+    margin-right: 30%
   }
   .emailForm {
     width: 375px;
@@ -131,6 +148,13 @@ h1 {
   }
 }
 
+@media only screen and (max-width: 400px) {
+  .footerLinks {
+    margin-left: 9%;
+    margin-right: 9%;
+  }
+}
+
 .topBox {
   height: auto;
   background-color: #E3B23C;
@@ -142,13 +166,22 @@ h1 {
   border-bottom: 3px solid #423E37;
 }
 
-.footerBox {}
+.footerBox {
+  height: auto;
+  background-color: #E3B23C;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+  border-top: 3px solid #423E37;
+  border-bottom: 4px solid #E3B23C
+}
 
 .footerContainer {
-  height: 75px;
   width: 100%;
   max-width: 1200px;
-  padding: 0 15px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .headerContainer {
@@ -183,10 +216,6 @@ h1 {
   left: 7%;
   width: 29%;
   height: auto;
-}
-
-.footerLinks {
-  margin-left: 40% auto;
 }
 
 .topBoxLinks {
@@ -362,9 +391,13 @@ h1 {
 }
 
 #logos {
-  width: 42px;
-  height: 42px;
+  width: 35px;
+  height: 35px;
   padding: 10px;
+}
+
+.logoCont {
+  display: inline-block;
 }
 
 .portImage {
