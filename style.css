@@ -30,6 +30,22 @@ h1 {
   font-weight: 400;
 }
 
+span {
+  margin: auto;
+}
+
+li {
+  list-style-type: none;
+  font-family: monospace;
+  font-size: 30px;
+  text-align: center;
+  color: #6E675F;
+}
+
+ul {
+  display: inline;
+}
+
 .change {
   -ms-transform: rotate(1080deg);
   -webkit-transform: rotate(1080deg);
@@ -79,6 +95,7 @@ h1 {
   max-width: 1200px;
   margin: 0 auto;
   overflow: hidden;
+  text-align: center;
 }
 
 .emailForm {
@@ -87,9 +104,16 @@ h1 {
   margin-bottom: 20px;
 }
 
-.emailForm iframe {
-  width: 100%;
+.skillsLists {
+  display: inline-block;
+  margin-right: 50px;
+  margin-left: 50px;
 }
+
+
+/*.emailForm iframe {
+  width: 100%;
+}*/
 
 .focusedFace {
   width: 200px;
@@ -123,6 +147,9 @@ h1 {
   }
   .emailForm {
     width: 375px;
+  }
+  .skillsLists {
+    margin-bottom: 80px;
   }
 }
 
@@ -272,7 +299,7 @@ h1 {
 }
 
 #aboutMeText {
-  font-family: "Courier New";
+  font-family: monospace;
   color: #6E675F;
   font-size: 22px;
   width: 100%;
@@ -418,7 +445,7 @@ h1 {
 }
 
 #portDesc {
-  font-family: "Courier New";
+  font-family: monospace;
   font-size: 20px;
   color: #E3B23C;
   width: 100%;
