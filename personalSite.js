@@ -1,5 +1,10 @@
 $(document).ready(function() {
 
+  $("#email").click(function() {
+    clipboard.copy("jedidiah.bertram@gmail.com")
+    alert("Email copied")
+  });
+
   $(".smiling").mouseenter(function() {
     $(this).addClass("change").delay(7000).queue(function() {
       $(this).removeClass("change").dequeue();
@@ -14,7 +19,6 @@ $(document).ready(function() {
 
   var position = 0;
   $(".scroll0").click(function(event) {
-    console.log(position);
     if (position === 1) {
       $('html, body').animate({
         scrollTop: '-=800px'
@@ -28,7 +32,6 @@ $(document).ready(function() {
   });
   $(".scroll1").click(function(event) {
     position += 1;
-    console.log(position);
     if (position === 1) {
       $('html, body').animate({
         scrollTop: '+=800px'
@@ -41,7 +44,6 @@ $(document).ready(function() {
   });
   $(".scroll2").click(function(event) {
     position += 2;
-    console.log(position);
     $('html, body').animate({
       scrollTop: '+=2500px'
     }, 500);
