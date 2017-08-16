@@ -1,5 +1,10 @@
 $(document).ready(function() {
 
+  $("#email").click(function() {
+    clipboard.copy("jedidiah.bertram@gmail.com")
+    alert("Email copied")
+  });
+
   $(".smiling").mouseenter(function() {
     $(this).addClass("change").delay(7000).queue(function() {
       $(this).removeClass("change").dequeue();

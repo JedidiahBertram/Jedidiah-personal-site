@@ -424,6 +424,12 @@ ul {
   padding: 10px;
 }
 
+#email {
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+}
+
 .logoCont {
   display: inline-block;
 }
