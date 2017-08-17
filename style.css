@@ -80,6 +80,32 @@ ul {
   z-index: 0;
 }
 
+#smiling {
+  height: 75%;
+  width: auto;
+}
+
+#clipboardAlert {
+  width: 250px;
+  height: 175px;
+  background-color: #EDEBD7;
+  overflow: inherit;
+  display: none;
+  text-align: center;
+  font-family: monospace;
+  color: #423E37;
+  font-size: 15px;
+  padding: 3px;
+  z-index: 5;
+  border-radius: 10%;
+  -moz-border-radius: 10%;
+  -webkit-border-radius: 4%;
+  position: fixed;
+  top: 5%;
+  left: 23%;
+  box-shadow: 3px 3px 2px grey;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -124,8 +150,8 @@ ul {
 .footerLinks {
   height: 50px;
   margin: 0 auto;
-  margin-left: 4%;
-  margin-right: 4%
+  /*margin-left: 1%;*/
+  /*margin-right: 4%*/
 }
 
 .smLinks {
@@ -133,7 +159,7 @@ ul {
   width: 50px;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 500px) {
   .focusedFace {
     position: absolute;
     right: 0;
@@ -142,7 +168,7 @@ ul {
   .footerLinks {
     height: 50px;
     margin: 0 auto;
-    margin-left: 37%;
+    margin-left: 36%;
     margin-right: 30%
   }
   .emailForm {
@@ -150,6 +176,10 @@ ul {
   }
   .skillsLists {
     margin-bottom: 80px;
+  }
+  #clipboardAlert {
+    left: 43%;
+    right: 45%;
   }
 }
 

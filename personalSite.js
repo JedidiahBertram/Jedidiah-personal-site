@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   $("#email").click(function() {
     clipboard.copy("jedidiah.bertram@gmail.com")
-    alert("Email copied")
+    $('#clipboardAlert').show().delay(2000).fadeOut("slow");
   });
 
   $(".smiling").mouseenter(function() {
