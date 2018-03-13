@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+  var position = 0;
   $("#email").click(function() {
     clipboard.copy("jedidiah.bertram@gmail.com")
     $('#clipboardAlert').show().delay(2000).fadeOut("slow");
@@ -17,7 +17,6 @@ $(document).ready(function() {
     });
   });
 
-  var position = 0;
   $(".scroll0").click(function(event) {
     if (position === 1) {
       $('html, body').animate({
