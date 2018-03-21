@@ -26,11 +26,6 @@ body {
   overflow-x: hidden;
 }
 
-center {
-  font-family: monospace;
-  color: #423E37;
-}
-
 h1 {
   font-weight: 400;
 }
@@ -109,6 +104,11 @@ ul {
   top: 5%;
   left: 23%;
   box-shadow: 3px 3px 2px grey;
+}
+
+#copyright {
+  font-family: monospace;
+  color: #423E37;
 }
 
 .container {
