@@ -26,6 +26,11 @@ body {
   overflow-x: hidden;
 }
 
+center {
+  font-family: monospace;
+  color: #423E37;
+}
+
 h1 {
   font-weight: 400;
 }
@@ -168,7 +173,7 @@ ul {
     height: 50px;
     margin: 0 auto;
     margin-left: 36%;
-    margin-right: 30%
+    margin-right: 30%;
   }
   .emailForm {
     width: 375px;
