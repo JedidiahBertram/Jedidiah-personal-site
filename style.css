@@ -136,7 +136,6 @@ ul {
   margin-left: 50px;
 }
 
-
 /*.emailForm iframe {
   width: 100%;
 }*/
@@ -285,7 +284,6 @@ ul {
   display: none;
 }
 
-
 /* Tablet And Up*/
 
 @media only screen and (min-width: 900px) {
@@ -418,7 +416,7 @@ ul {
 }
 
 #headshot {
-  background-image: url(assets/many_faces/IMG_6775.png);
+  background-image: url(assets/sliderImages/IMG_8321.JPG);
   background-size: cover;
   background-position: center;
   border: 5px solid #423E37;
@@ -497,7 +495,6 @@ ul {
   text-align: center;
   margin-top: 10px;
 }
-
 
 /* color codes for page:
 darker grey/brown: #423E37
